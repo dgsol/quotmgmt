@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include quotmgmt *.css
+recursive-include quotmgmt *.csv
+recursive-include quotmgmt *.html
+recursive-include quotmgmt *.ico
+recursive-include quotmgmt *.js
+recursive-include quotmgmt *.json
+recursive-include quotmgmt *.md
+recursive-include quotmgmt *.png
+recursive-include quotmgmt *.py
+recursive-include quotmgmt *.svg
+recursive-include quotmgmt *.txt
+recursive-exclude quotmgmt *.pyc
